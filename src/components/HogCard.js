@@ -3,6 +3,7 @@ import HogDetail from './HogDetail'
 
 function Hog({name,image, specialty, weight, greased, medal}){
     const [showDetails, showDetailsSetter]= useState(false);
+    
 
     function handleShowInfo(){
         showDetailsSetter((showDetails)=> !showDetails)
